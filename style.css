@@ -1,0 +1,152 @@
+body{
+  width: 1500px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+#title{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#fork-knife{
+  height: 50px;
+}
+
+h1{
+  font-family:'Yellowtail';
+  font-size: 40px;
+  padding: 0 5px 5px 5px;
+}
+
+h2{
+  font-family: 'Roboto';
+  font-size: 10px;
+  padding: 0 10px;
+  color: gray;
+}
+
+#social{
+  display: flex;
+}
+
+.social-icon{
+  width: 20px;
+  margin-top: 20px;
+}
+
+#firstSocial{
+  margin-right: 10px;
+}
+
+#border{
+  background-image: url(img/hr-img.png);
+  margin-bottom: 80px;
+}
+
+#top-main{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Serif Telugu';
+  align-items:flex-end;
+  margin: 30px 0;
+}
+
+h3{ 
+  font-size: 60px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+main div p{
+  color: gray;
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+#print{
+  display: flex;
+}
+
+#top-main i{
+  padding: 0 5px;
+  margin-top: 3px;
+}
+
+article{
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+article section img{
+  width: 100%;
+}
+
+#hero{
+  width: 1500px;
+}
+
+article p{
+  font-size: 27px;
+  text-indent: 50px;
+  font-family: 'Noto Serif Telugu';
+  padding: 40px 0;
+  color: gray;
+}
+
+article section{
+  position: relative;
+}
+
+form{
+  width: 100%;
+  z-index: 1;
+  font-size: 35px;
+  font-family: 'Patrick Hand';
+}
+
+fieldset{
+  margin: 60px 80px;
+  padding: 15px;
+
+}
+
+#field-set1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#field-set2{
+  position: absolute;
+  top: 0;
+  left: 750px;
+}
+
+input{
+  display: block;
+  position: relative;
+}
+
+label{
+  display: block;
+  width: 600px;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+};
+
+#vanessa-div{
+  display: flex;
+}
+
+#vanessa-text{
+  display: block;
+}
