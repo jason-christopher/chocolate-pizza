@@ -37,7 +37,7 @@ h2{
 }
 
 .social-icon{
-  width: 20px;
+  width: 25px;
   margin-top: 20px;
 }
 
@@ -98,6 +98,7 @@ article p{
   font-family: 'Noto Serif Telugu';
   padding: 40px 0;
   color: gray;
+  line-height: 40px;
 }
 
 article section{
@@ -130,23 +131,91 @@ fieldset{
 }
 
 input{
-  display: block;
   position: relative;
+  display: block;
 }
 
 label{
   display: block;
   width: 600px;
+  color: rgb(97, 95, 95);
 }
 
 input[type=checkbox]:checked + label.strikethrough{
   text-decoration: line-through;
-};
+}
+
+#vanessa-pic{
+  height: 150px;
+  margin-right: 20px;
+}
 
 #vanessa-div{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: -50px;
+}
+
+h4{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  color: black;
 }
 
 #vanessa-text{
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+  padding-right: 30px;
+}
+
+/* #button{
+  background-color: orange;
+  color: white;
+  height: 50px;
+  width: 300px;
+} */
+
+#button{
+  background-color: rgb(169, 59, 46);
+  font-family: 'Roboto';
+  color: white;
+  width: 200px;
+  font-size: 25px;
   display: block;
+  padding: 20px 50px;
+}
+
+#line{
+  height: 2px;
+  width: 1500px;
+  background-image: linear-gradient(to right, gray, white, gray);
+  position: relative;
+  z-index: -1;
+  margin: 100px 0;
+}
+
+#small-img{
+  position: absolute;
+  top: -15px;
+  left: 740px;
+  width: 40px;
+}
+
+#copyright{
+  width: 400px;
+  margin: 0 0 0 600px;
+  color: gray;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#ghost{
+  width: 400px;
+  margin: 0 0 0 650px;
+  color: gray;
+  font-size: 20px;
 }
