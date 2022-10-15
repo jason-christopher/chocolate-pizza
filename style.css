@@ -146,7 +146,7 @@ input[type=checkbox]:checked + label.strikethrough{
 }
 
 #vanessa-pic{
-  height: 150px;
+  height: 100px;
   margin-right: 20px;
 }
 
@@ -172,13 +172,6 @@ h4{
   padding-right: 30px;
 }
 
-/* #button{
-  background-color: orange;
-  color: white;
-  height: 50px;
-  width: 300px;
-} */
-
 #button{
   background-color: rgb(169, 59, 46);
   font-family: 'Roboto';
@@ -187,6 +180,7 @@ h4{
   font-size: 25px;
   display: block;
   padding: 20px 50px;
+  margin-left: 100px;
 }
 
 #line{
@@ -218,4 +212,5 @@ h4{
   margin: 0 0 0 650px;
   color: gray;
   font-size: 20px;
+  margin-bottom: 200px;
 }
